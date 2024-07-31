@@ -1,0 +1,29 @@
+{
+  "name": "MyIDEAL",
+  "version": "0.1.16",
+  "summary": "ECアプリ向けサイズレコメンドプラグイン",
+  "description": "myIDEALはECアプリ向けのサイズレコメンドプラグインです。\n靴の商品詳細スクリーン内に埋め込むことで、来訪したユーザーに対して最適と思われるサイズを提示することができます。",
+  "homepage": "https://myideal.jp/guide",
+  "swift_versions": [
+    "5.9.2"
+  ],
+  "cocoapods_version": ">= 1.9.0",
+  "license": {
+    "type": "Commercial",
+    "text": "© 2024 IDEAL,Inc."
+  },
+  "authors": {
+    "Shota Nakahara": "nakahara@sole.style"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source": {
+    "http": "https://d2zxv5t9212d76.cloudfront.net/v0.1.16/MyIDEAL.zip",
+    "type": "zip"
+  },
+  "vendored_frameworks": "MyIDEAL.xcframework",
+  "static_framework": true,
+  "frameworks": "SwiftUI",
+  "swift_version": "5.9.2"
+}
